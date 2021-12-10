@@ -477,7 +477,7 @@ button {
 }
 
 .icon-md {
-  font-size: 20px !important;
+  font-size: 15px !important;
   margin-right: 20px;
 }
 
@@ -518,7 +518,6 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -1001,9 +1000,7 @@ h4 {
   .a-block {
     padding: 0 10px;
   }
-  .btn-dwn {
-    display: none;
-  }
+
   .voffset {
     margin-top: 5px;
   }
