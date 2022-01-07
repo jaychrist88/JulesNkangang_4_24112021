@@ -1,0 +1,70 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.page-containeur {
+  text-align: center;
+  margin: 2% 0 2% 0;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0 8% 0;
+  width: 200px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: rgb(238, 115, 207);
+  transform: scale(1.5);
+  background: linear-gradient(175deg);
+  box-shadow: 3px 3px 14px 0px #a7a7a7;
+}
+
+.initial a,
+.optimise a {
+  text-decoration: none;
+}
+
+.initial:hover {
+  color: #4d4d4d;
+  box-shadow: 3px 3px 14px 0px #5b5b5b;
+  cursor: pointer;
+  background-color: #f2eafb;
+  opacity: 1;
+  background: linear-gradient(175deg, #ff79da 20%, #9356dc 98%);
+}
+
+.optimise {
+  display: flex;
+  text-align: center;
+  margin: 2% 0 2% 0;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 30%;
+  background-color: rgb(115, 137, 238);
+  background: linear-gradient(175deg);
+  box-shadow: 3px 3px 14px 0px #a7a7a7;
+  transform: scale(1.5);
+}
+.optimise:hover {
+  color: #4d4d4d;
+  box-shadow: 3px 3px 14px 0px #5b5b5b;
+  cursor: pointer;
+  background-color: #f2eafb;
+  opacity: 1;
+  background: linear-gradient(175deg, #ff79da -20%, #9356dc -98%);
+}
